@@ -80,8 +80,6 @@ function isGreaterThan(first, second){
 
 console.log(isGreaterThan(3,1));
 
-
-
 /*
  * #4
  * Function - mustBeTrue
@@ -94,7 +92,13 @@ console.log(isGreaterThan(3,1));
  * Console.log your result.
 */
 
+function mustBeTrue(boo){
+	if(boo === "true"){
+		return true;
+	}
+}
 
+console.log(mustBeTrue("true"));
 
 /*
  * #5
