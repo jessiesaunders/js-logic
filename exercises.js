@@ -120,7 +120,6 @@ function bigBird(word){
 
 console.log(bigBird("wow"));
 
-
 /*
  * #6
  * Function - isEqual
@@ -133,6 +132,15 @@ console.log(bigBird("wow"));
  * If the strings are equal, the function will return the message "You look mahvelous!" Otherwise, return the message: "I don't know who you are anymore." 
  * Console.log your result.
 */
+
+function isEqual(first, second){
+	if(first.length === second.length){
+		return "You look mahvelous!";
+	}
+}
+
+console.log(isEqual("vodka", "tonic"));
+
 
 
 /*
