@@ -232,7 +232,15 @@ console.log(dirty30(12, 13, 14));
  * Console.log your result.
 */ 
 
+function evenStevens(num){
+	if(num % 2 === 0){
+		return true;
+	} else {
+		return false;
+	}
+}
 
+console.log(evenStevens(4));
 
 
 /*
