@@ -184,7 +184,6 @@ function spareChange(money){
 
 console.log(spareChange(101));
 
-
 /*
  * #9
  * Function - dirty30
@@ -199,7 +198,27 @@ console.log(spareChange(101));
  * Console.log your result.
 */ 
 
+/*function dirty30(one, two, three){
+	if((one + two + three) > 30){
+		return true;
+	} else{
+		return false;
+	}
+}
 
+console.log(dirty30(12, 13, 14));
+*/
+
+function dirty30(one, two, three){
+var sum = one + two + three;
+	if( sum > 30){
+		return true;
+	} else{
+		return false;
+	}
+}
+
+console.log(dirty30(12, 13, 14));
 
 /*
  * #10
