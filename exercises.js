@@ -112,6 +112,13 @@ console.log(mustBeTrue("true"));
  * Console.log your result.
 */
 
+function bigBird(word){
+	if(word.length === 3){
+		return "Word to Big Bird!";
+	}
+}
+
+console.log(bigBird("wow"));
 
 
 /*
