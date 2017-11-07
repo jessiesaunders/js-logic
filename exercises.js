@@ -1,3 +1,9 @@
+function canVote(age){
+
+
+	
+}
+
 /*
 If statements - Evaluates (or checks) a condition. If the condition is true, any statements in the subsequent code block are executed
 */
