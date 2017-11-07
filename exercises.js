@@ -1,9 +1,3 @@
-function canVote(age){
-
-
-	
-}
-
 /*
 If statements - Evaluates (or checks) a condition. If the condition is true, any statements in the subsequent code block are executed
 */
@@ -34,6 +28,14 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
+
+function canVote(age){
+	if(age >= 18){
+		return true;
+	}
+}
+
+console.log(canVote(20));
 
 
 /*
