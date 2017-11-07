@@ -141,8 +141,6 @@ function isEqual(first, second){
 
 console.log(isEqual("vodka", "tonic"));
 
-
-
 /*
  * #7
  * Function - notEqual
@@ -156,6 +154,13 @@ console.log(isEqual("vodka", "tonic"));
  * Console.log your result.
 */
 
+function isNotEqual(first, second){
+	if(first.length !== second.length){
+		return "Opposites do attract.";
+	}
+}
+
+console.log(isNotEqual("gin", "tonic"));
 
 /*
  * #8
@@ -169,6 +174,15 @@ console.log(isEqual("vodka", "tonic"));
  * Console.log your result.
 */ 
 
+function spareChange(money){
+	if(money > 100){
+		return true;
+	} else{
+		return false;
+	}
+}
+
+console.log(spareChange(101));
 
 
 /*
