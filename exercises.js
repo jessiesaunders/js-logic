@@ -310,7 +310,6 @@ function moneyTrain(speed){
 
 console.log(moneyTrain(75));
 
-
 /*
  * #14
  * Function - buyDoughnut
@@ -325,6 +324,22 @@ console.log(moneyTrain(75));
  * Console.log budget and doughnutBought again.
 */ 
 
+var budget = 25;
+var doughnutPrice = 5;
+var doughnutBought = 0; 
+
+function buyDoughnut(){
+	if(budget > doughnutPrice){
+		budget -= doughnutPrice;
+		doughnutBought ++;
+	} 
+}
+
+buyDoughnut();
+console.log(budget);
+console.log(doughnutBought);
+
+	
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
 Inside the function, create a switch statement that will check the daily specials of your favorite restaurant (or make up your own daily specials for each day of the week.*/
@@ -358,13 +373,20 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
+for (var i = 1; i<6; i++){
+	console.log("Player " + i);
+}
 
 /* 
  * #16
  * Create a for loop that will iterate and console.log each item in the array below:
 */
-  var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
 
+var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
+
+for (var i = 0; i<myFavFoods.length; i++){
+	console.log(myFavFoods[i]);
+}
 
 /*
  * #17
@@ -381,6 +403,18 @@ for (var i = 0; i<toyotaModels.length; i++){
  * Console.log your result.
 */
 
+var numArray = [31, 6, 30, 86, 87];
+var total = 0;
+
+function sumItUp(arr){
+	for (var i = 0; i<arr.length; i++){
+		total += arr[i];
+/*		console.log(total);*/
+	}
+		return total;
+}
+
+console.log(sumItUp(numArray));
 
 
 /*
